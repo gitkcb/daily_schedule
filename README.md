@@ -1,4 +1,5 @@
 # Daily Schedule
+https://gitkcb.github.io/daily_schedule/
 ## Description
 This website was created to allow the user to plan their day using a electronic planner that has time slots for the work week of 9am-5pm. this planner will save your daily schedule in local storage so the page can be refreshed and your plans will be saved. This project was built to make planning more convenient. I learned how to use Bootstrap and Jquery and moment.js. 
 Provide a short description explaining the what, why, and how of your project. Use the following questions as a guide:
