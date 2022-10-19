@@ -1,9 +1,10 @@
 
 let date = moment();
-$('#currentDay').text(date.format('MMMM Do YYYY, h:mm:ss a'));
+$('#currentDay').text(date.format('MMMM Do YYYY'));
 let timeBlocks = $(".time-block");
 let hour = moment().format('H')
 console.log(hour);
+//Function that changes color blocks with the current time.
 function timeBlockColor() {
     timeBlocks.each(function () {
         let thisBlock = $(this);
@@ -22,14 +23,14 @@ function timeBlockColor() {
 
 }
 timeBlockColor();
-
+//Hour Nine
 
 let hourNine = $('#hournine');
 var buttonNine = $('#btnhournine');
 
 function saveHourNine() {
     let time = $("#hournine").attr('data-hour');
-    let scheduleHourNine =  $('#hournine').val();
+    let scheduleHourNine = $('#hournine').val();
     localStorage.setItem(time, scheduleHourNine);
     renderHourNine();
 }
@@ -53,7 +54,7 @@ var buttonten = $('#btnhourten');
 
 function saveHourTen() {
     let time = $("#hourten").attr('data-hour');
-    let scheduleHourTen =  $('#hourten').val();
+    let scheduleHourTen = $('#hourten').val();
     localStorage.setItem(time, scheduleHourTen);
     renderHourTen();
 }
@@ -77,7 +78,7 @@ var buttoneleven = $('#btnhoureleven');
 
 function saveHourEleven() {
     let time = $("#houreleven").attr('data-hour');
-    let scheduleHourEleven =  $('#houreleven').val();
+    let scheduleHourEleven = $('#houreleven').val();
     localStorage.setItem(time, scheduleHourEleven);
     renderHourEleven();
 }
@@ -100,7 +101,7 @@ var buttontwelve = $('#btnhourtwelve');
 
 function saveHourTwelve() {
     let time = $("#hourtwelve").attr('data-hour');
-    let scheduleHourTwelve =  $('#hourtwelve').val();
+    let scheduleHourTwelve = $('#hourtwelve').val();
     localStorage.setItem(time, scheduleHourTwelve);
     renderHourTwelve();
 }
@@ -124,7 +125,7 @@ var buttonthirteen = $('#btnhourthirteen');
 
 function saveHourThirteen() {
     let time = $("#hourthirteen").attr('data-hour');
-    let scheduleHourThirteen =  $('#hourthirteen').val();
+    let scheduleHourThirteen = $('#hourthirteen').val();
     localStorage.setItem(time, scheduleHourThirteen);
     renderHourThirteen();
 }
@@ -147,7 +148,7 @@ var buttonfourteen = $('#btnhourfourteen');
 
 function saveHourFourteen() {
     let time = $("#hourfourteen").attr('data-hour');
-    let scheduleHourFourteen =  $('#hourfourteen').val();
+    let scheduleHourFourteen = $('#hourfourteen').val();
     localStorage.setItem(time, scheduleHourFourteen);
     renderHourFourteen();
 }
@@ -171,7 +172,7 @@ var buttonfifteen = $('#btnhourfifteen');
 
 function saveHourFifteen() {
     let time = $("#hourfifteen").attr('data-hour');
-    let scheduleHourFifteen =  $('#hourfifteen').val();
+    let scheduleHourFifteen = $('#hourfifteen').val();
     localStorage.setItem(time, scheduleHourFifteen);
     renderHourFifteen();
 }
@@ -194,7 +195,7 @@ var buttonsixteen = $('#btnhoursixteen');
 
 function saveHourSixteen() {
     let time = $("#hoursixteen").attr('data-hour');
-    let scheduleHourSixteen =  $('#hoursixteen').val();
+    let scheduleHourSixteen = $('#hoursixteen').val();
     localStorage.setItem(time, scheduleHourSixteen);
     renderHourSixteen();
 }
@@ -217,7 +218,7 @@ var buttonseventeen = $('#btnhourseventeen');
 
 function saveHourSeventeen() {
     let time = $("#hourseventeen").attr('data-hour');
-    let scheduleHourSeventeen =  $('#hourseventeen').val();
+    let scheduleHourSeventeen = $('#hourseventeen').val();
     localStorage.setItem(time, scheduleHourSeventeen);
     renderHourSeventeen();
 }
